@@ -262,7 +262,7 @@ if __name__ == "__main__":
     gen.eval()
     discriminator_step = train_discriminator(gen, dis, oracle_sources, oracle_targets, dis_optimizer, args, args.pre_d_steps, args.pre_dis_epochs, discriminator_step)
 
-    # training generator and discriminator alternatively
+    # training generator and discriminator alternately
     gen_optimizer = optim.Adam(gen.parameters(), lr=args.gen_lr)
     gen_steps = 0
     for epoch in range(args.gan_epoch):
