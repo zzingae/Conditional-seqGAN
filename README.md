@@ -32,8 +32,8 @@ Oracle NLL is used for evaluating generated target sequences given the test sour
 Oracle NLL curve for generator evaluation (pre-training for the first 20 epochs, followed by policy gradient training)
 
 ## Reference
-https://arxiv.org/abs/1609.05473
+seqGAN paper: https://arxiv.org/abs/1609.05473
 
-https://github.com/suragnair/seqGAN
+This repository is based on Transformer-pytorch: http://nlp.seas.harvard.edu/2018/04/03/attention.html
 
-http://nlp.seas.harvard.edu/2018/04/03/attention.html
+Many parts are bollowed from seqGAN-pytorch: https://github.com/suragnair/seqGAN
