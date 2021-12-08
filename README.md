@@ -34,6 +34,6 @@ Oracle NLL curve for generator evaluation (pre-training for the first 20 epochs,
 ## Reference
 seqGAN paper: https://arxiv.org/abs/1609.05473
 
-This repository is based on Transformer-pytorch: http://nlp.seas.harvard.edu/2018/04/03/attention.html
+Transformer implementation: http://nlp.seas.harvard.edu/2018/04/03/attention.html
 
 Many parts are bollowed from seqGAN-pytorch: https://github.com/suragnair/seqGAN
