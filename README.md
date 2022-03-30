@@ -16,6 +16,8 @@ Target sequences conditioned on the sources are generated from randomly initiali
 
 For evaluation, another sources (test sources) are generated from the source generator.
 
+<img width="600" alt="nll_curve" src="https://user-images.githubusercontent.com/26407378/160808920-820b13df-35f8-446b-8b7e-ed161389442c.png">
+
 ## Model architecture
 Oracle, generator and discriminator are all Transformers without any parameter sharing.
 Oracle and generator have exactly the same architecture.
